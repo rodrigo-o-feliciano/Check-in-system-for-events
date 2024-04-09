@@ -1,8 +1,8 @@
 //Cursor do mouse personalizado
 let cursor = document.querySelector('.cursor');
 document.addEventListener('mousemove',(event) => {
-  cursor.style.left = event.pageX + 'px';
-  cursor.style.top = event.pageY + 'px';
+    cursor.style.left = event.pageX + 'px';
+    cursor.style.top = event.pageY + 'px';
 })
 
 let participantes = [
