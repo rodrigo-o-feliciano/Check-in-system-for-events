@@ -12,6 +12,7 @@
 .cursor {
   position: fixed;
   pointer-events: none;
+  transform: translate(-21%);
   z-index: 2;
 }
 
